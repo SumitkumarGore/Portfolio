@@ -150,7 +150,7 @@ text-align: center;
 }
 /* ----------------------------project------------------------ */
 #project{
-    background-color: darkolivegreen;
+    
     text-align: center;
 }
 
@@ -158,84 +158,131 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 40px;
+    gap: 30px;
    
     padding: 50px;
     
 }
 .div1{
 border: 1px solid black;
-height: 300px;
+height: 250px;
 border-radius: 10px;
 
 
 }
 .div2{
 border: 1px solid black;
-height: 300px;
+height: 250px;
 border-radius: 10px;
 }
 .div3{
 border: 1px solid black;
-height: 300px;
+height: 250px;
 border-radius: 10px;
 }
 .div4{
 border: 1px solid black;
-height: 300px;
+height: 250px;
 border-radius: 10px;
 }
     
 .div5 {
     grid-row-start: 2;
     border: 1px solid black;
-    height: 300px;
+    height: 250px;
 border-radius: 10px;
 }
 
 .div6 {
     grid-row-start: 2;
     border: 1px solid black;
-    height: 300px;
+    height: 250px;
 border-radius: 10px;
 }
 
 .div7 {
     grid-row-start: 2;
     border: 1px solid black;
-    height: 300px;
+    height: 250px;
 border-radius: 10px;
 }
 
 .div8 {
     grid-row-start: 2;
     border: 1px solid black;
-    height: 300px;
+    height: 250px;
 border-radius: 10px;
 }
         
 
 /* -----------------------concatct----------------------------------- */
 #Contact{
-    height: 300px;
     
- background-color: rgb(15, 2, 42);
+   padding: 20px;
+    text-align: center;
+ background-color: rgb(151, 144, 167);
 }
 .ids{
+    margin-top: 50px ;
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
 }
-i{
-    color: white;
-}
+
 .ids img{
     height: 30px;
     width: 30px;
+    
 }
 .ids a{
     margin-left: 10px;
     color: white;
     text-decoration: none;
 }
+.handle{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+.footline{
+margin-top: 100px;
+}
+/* -------------------certificates--------------------------- */
+#certificate {
+    text-align: center;
+
+    padding-top: 20px;
+}
+
+
+.cr_grid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 30px;
+   
+     padding: 50px 
+
+}
+.cr_box{
+    border: 1px solid black;
+  height: 200px;
+  width: 400px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.symbol{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+ 
+   text-decoration: none;
+   font-size: xx-large;
+   border-radius: 50%;
+}      
